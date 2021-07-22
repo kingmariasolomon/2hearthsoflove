@@ -1,0 +1,13 @@
+"Media" : ["mediacategory", "mediaaddcategory", "mediaeditcategory", "mediadeletecategory", "mediadeletemultiplecategory", "mediasubcategory", "mediaaddsubcategory", "mediaeditsubcategory", "mediadeletesubcategory", "mediadeletemultiplesubcategory", "media", "addMedia", "multipleimage", "editMedia", "deleteMedia", "deletemultipleMedias"],
+
+"Blog" : ["blogs", "categories", "addblog", "editblog", "deleteblog", "deletemultipleblogs", "addcategory", "editcategory", "deletecategory", "deletemultiplecategories"],
+
+"Events" : ["events", "getAllEvents", "editEvent", "deleteAnEvent", "deletemultipleEvents", "calendar", "getEvents", "createEvent", "updateEvent", "deleteEvent"],
+
+"Funding" : ["fundCat", "addFundCat", "editFundCat", "deleteFundCat", "deletemultipleFundCat", "donations", "donationDetails", "deleteDonation"],
+
+
+
+"Prayerrequest" : ["prayerRequests", "reqestDetails", "acknowledgReqest", "deleteReqest"],
+
+"Testimony" : ["testimonies", "testimonyDetails", "approveTestimony", "deletetestimony"]

@@ -1,0 +1,62 @@
+{
+    "Guest" : {
+        "denied" : {
+            "Contacts" : ["admin", "details", "delete"],
+            "Admin" : ["*"]
+        },
+        "About" : ["index", "history"],
+        "Blog" : ["index", "page", "details", "pagecategory"],
+        "Buildtables" : ["*"],
+        "Contacts" : ["index"],
+        "Comments" : ["add"],
+        "Events" : ["index", "calendar"],
+        "Funding" : ["donation"] ,
+        "Home" : ["*"],
+        "Media" : ["index", "gallery"],
+        "News" : ["index"],
+        "Prayerrequest" : ["index"],
+        "Register" : ["login", "register"],
+        "Restricted" : ["*"],
+        "Testimony" : ["index", "share"]
+    },
+    "LoggedIn" : {
+        "denied" : {
+            "Register" : ["login", "register"]
+        },
+        "Register" : ["logout"],
+        "Contacts" : ["*"],
+        "Comments" : ["*"]
+    },
+    "Editor" : {
+        "denied" : {
+            "Register" : ["login", "register"]
+        },
+        "Register" : ["logout"],
+        "Contacts" : ["*"],
+        "Editor" : ["*"]
+    },
+    "Admin" : {
+        "denied" : {
+            "Register" : ["login", "register"]
+        },
+        "Register" : ["logout"],
+        "Contacts" : ["*"],
+        "Admin" : ["*"]
+    },
+    "SuperAdmin" : {
+        "denied" : {
+            "Register" : ["login", "register"]
+        },
+        "Register" : ["logout"],
+        "Admin" : ["*"],
+        "Blog" : ["*"],
+        "Contacts" : ["*"],
+        "Events" : ["*"],
+        "Funding" : ["*"],
+        "Media" : ["*"],
+        "News" : ["*"],
+        "Prayerrequest" : ["*"],
+        "Restricted" : ["*"],
+        "Testimony" : ["*"]
+    }
+}

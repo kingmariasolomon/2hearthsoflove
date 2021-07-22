@@ -1,0 +1,27 @@
+{
+    "Home" : "home",
+    "About" : "about",
+    "News" : "news",
+    "Events" : {
+        "Upcoming":"events",
+        "Calendar":"events/calendar"
+    },
+    
+    "Media" : {
+        "Media": "media",
+        "Gallery": "media/gallery",
+        "Testimonies": "testimony/page/1"
+    },
+    "Blog" : "blog/page/1",
+    "Contacts" : {
+        "My Contacts": "contacts",
+        "Make Donations": "funding/donation",
+        "Prayer Request": "prayerrequest",
+        "Add Contact": "contacts/admin"
+    },
+    "Admin" : "admin",
+    "Editor" : "editor",
+    "Login" : "register/login",
+    "Register" : "register/register",
+    "Logout" : "register/logout"
+}
